@@ -9,3 +9,7 @@ fibo[1] = 1
 for (let i = 2; i < n+1; i++) {
   fibo[i] = fibo[i-1] + fibo[i-2]
 }
+
+for (let i=0; i < n+1; i++) {
+  console.log(fibo[i])
+}
